@@ -1,14 +1,14 @@
 body{
-    padding-top: 60px; 
+    padding-top: 50px; 
 }
 
 .fila {
-    padding:0;
+    padding: 0;
     background-image: url("../imagenes/dron.jpg");
     background-size: cover;
-    padding-bottom: 30%;
-    background-repeat: no-repeat;  
-
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    background-position: 30% 25%;
 }
 .rowSinMargin {
     margin-left: 0;
@@ -19,8 +19,11 @@ body{
 .textoWelcome {
     font-family: 'Roboto Slab', serif;
     color: #4caf50;
-    font-size: 55px;
-    position: fixed;
-    padding-top: 10%;
+    padding-top: 13%;
     padding-left: 2%;
+}
+
+.bordePartes {
+    border: 6px solid;
+    border-radius:5px 0 5px 5px;
 }
