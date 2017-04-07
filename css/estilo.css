@@ -16,6 +16,11 @@ body{
     padding: 0;
 }
 
+/*
+Texto de bienvenida responsive para cada pantalla
+Aqui comienza
+*/
+
 .textoWelcome {
     font-family: 'Roboto Slab', serif;
     color: #4caf50;
@@ -23,7 +28,50 @@ body{
     padding-left: 2%;
 }
 
+.textoBienvResp {
+    font-size:50px;
+}
+@media only screen and (max-width: 767px) {
+    .textoBienvResp {
+        font-size:13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .textoBienvResp {
+        font-size:30px;
+    }
+}
+
+@media only screen (min-width: 992px) and (max-width: 1024px) {
+    .textoBienvResp {
+        font-size: 25px;
+    }
+}
+
+/* Aqui finaliza el texto responsive de bienvenida 
+*/
+
 .bordePartes {
     border: 6px solid;
     border-radius:5px 0 5px 5px;
+}
+
+.componentes{
+    border: 6px solid;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-position: center;
+}
+
+.centrarImagen {
+    margin: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.izquierda {
+    float: left;
 }
