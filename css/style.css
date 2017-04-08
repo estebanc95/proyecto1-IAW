@@ -1,0 +1,95 @@
+html,body {
+    height: 100%;
+
+}
+
+body{
+    padding-top:50px;
+}
+
+.sect {
+    height: 80%;
+    background-color: #262930;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sectOne {
+    height: 70%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.caja {
+    padding-top: 15%;
+    padding-left: 10%;
+    float:left;
+}
+
+.introdP {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.imagenDron {
+    padding-top: 10%;
+    padding-right: 15%;
+    float: right;
+}
+
+.tamañoIntro {
+    width: 280px;
+    height: 280px;
+}
+
+.sectTwo {
+    height: 80%;
+    background-image: url("../imagenes/seccion2.jpg");
+}
+
+.textoSect2 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    float: right;
+    padding-top:10%;
+    padding-right: 4%;
+}
+
+.textoArmado {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.textoArmado2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rowPaddingPr {
+    padding-top: 5%;
+}
+
+.tipoComp{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.imagenComp {
+    padding-top: 5%;
+}
+
