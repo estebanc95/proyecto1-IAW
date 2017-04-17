@@ -5,70 +5,82 @@
       "marca":"Serie X",
       "color":"rojo",
       "material":"fibra de carbono",
-      "numeroHelices":4
+      "numeroHelices":4,
+      "imagen":"/imagenes/marcos/marco1.png"
     },
     {
       "modelo":"y3",
       "marca":"Serie Y",
       "color":"azul",
       "material":"plastico",
-      "numeroHelices":6
+      "numeroHelices":6,
+      "imagen":"/imagenes/marcos/marco2.png"
     }
   ],
   "motores":[
     {
       "nombre":"XYZ12",
       "revoluciones":1400,
-      "voltaje":128
+      "voltaje":128,
+      "imagen":"/imagenes/motores/motor1.png"
     },
     {
       "nombre":"RX7",
       "revoluciones":1100,
-      "voltaje":90
+      "voltaje":90,
+      "imagen":"/imagenes/motores/motor1.png"
     }
   ],
   "baterias":[
     {
       "voltaje":128,
       "duracion":2,
-      "tipo":"litio"
+      "tipo":"litio",
+      "imagen":"/imagenes/baterias/bateria1.png"
     },
     {
       "voltaje":1400,
       "duracion":4,
-      "tipo":"lipo"
+      "tipo":"lipo",
+      "imagen":"/imagenes/baterias/bateria1.png"
     }
   ],
   "camaras":[
     {
       "nombre":"ASD25",
       "marca":"Nikon",
-      "megapixeles":300
+      "megapixeles":300,
+      "imagen":"/imagenes/baterias/bateria1.png"
     },
     {
       "nombre":"Hero 5",
       "marca":"GoPro",
-      "megapixeles":1080
+      "megapixeles":1080,
+      "imagen":"/imagenes/camaras/gopro.png"
     }
   ],
   "GPS":[
     {
       "nombre":"Garmin",
-      "modelo":"Nuvi A12"
+      "modelo":"Nuvi A12",
+      "imagen":"/imagenes/camaras/sony.png"
     }
   ],
   "radioreceptores":[
     {
       "plataforma":"Android",
-      "frecuencia":144
+      "frecuencia":144,
+      "imagen":"/imagenes/receptores/mando1.png"
     },
     {
       "plataforma":"Tradicional",
-      "frecuencia":24
+      "frecuencia":24,
+      "imagen":"/imagenes/receptores/mando1.png"
     },
     {
       "plataforma":"Remoto con pantalla integrada",
-      "frecuencia":24
+      "frecuencia":24,
+      "imagen":"/imagenes/receptores/mando1.png"
     }
   ]
 }
