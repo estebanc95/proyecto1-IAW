@@ -9,8 +9,10 @@
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+          
         <!-- Mi Estilo -->
-        <link href="css/style.css" rel="stylesheet">
+        <link id="cascadaStyles" href="#" rel="stylesheet">
+        
         <!-- Font de Google -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
@@ -46,8 +48,13 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estilos <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Estilo 1</a></li>
-                                    <li><a href="#">Estilo 2</a></li>
+                                    <li><a id="estilo1">Estilo 1</a>
+                                        
+                                    
+                                    </li>
+                                    <li><a id="estilo2">Estilo 2</a>
+                                                            
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -129,7 +136,7 @@ Llegando a donde antes no podias
                                 RADIORECEPTOR
                             </div>
                             <div class="imagenComp">
-                                <img id="imgMando" src="imagenes/mandos/mando4.png" class="img-responsive center-block" alt="Responsive image">
+                                <img id="imgMando" src="imagenes/receptores/mando4.png" class="img-responsive center-block" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -284,5 +291,13 @@ Llegando a donde antes no podias
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="js/bootstrap.min.js"></script>
+            
+            <!-- Include all files to jquery cookies-->
+            <script src="jqueryCookie/jquery.cookie.js"></script>
+            
+            
+            <script src="js/cookiesSave.js"></script>
+            
+            <script src="js/changeStyle.js"></script>
             </body>
         </html> 
