@@ -13,17 +13,17 @@ $( "#precargado1" ).click(function() {
         //si logre entrar
 
         var marco=json.marco;
-        cargar(marco,"#imgMarco","#divMarco");
+        cargar(marco,"imgMarco","#divMarco");
         var motor= json.motor;
-        cargar(motor,"#imgMotor","#divMotor");
+        cargar(motor,"imgMotor","#divMotor");
         var bateria = json.bateria;
-        cargar(bateria,"#imgBateria","#divBateria");
+        cargar(bateria,"imgBateria","#divBateria");
         var camara = json.camara;
-        cargar(camara,"#imgCamara","#divCamara");
+        cargar(camara,"imgCamara","#divCamara");
         var gps = json.GPS;
-        cargar(gps,"#imgGps","#divGps");
+        cargar(gps,"imgGps","#divGps");
         var mando = json.radioreceptor;
-        cargar(mando,"#imgMando","#divMando");
+        cargar(mando,"imgMando","#divMando");
     });
 });
 
