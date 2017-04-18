@@ -9,10 +9,10 @@
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-          
+
         <!-- Mi Estilo -->
         <link id="cascadaStyles" href="#" rel="stylesheet">
-        
+
         <!-- Font de Google -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
@@ -49,11 +49,24 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estilos <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a id="estilo1">Estilo 1</a>
-                                        
-                                    
+
+
                                     </li>
                                     <li><a id="estilo2">Estilo 2</a>
-                                                            
+
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Precargados <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="precargado1">Precargado 1</a>
+
+
+                                    </li>
+                                    <li><a id="estilo2">Estilo 2</a>
+
                                     </li>
                                 </ul>
                             </li>
@@ -92,7 +105,7 @@ Llegando a donde antes no podias
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="textoArmado">
+                    <div id="menuDeArmado" class="textoArmado">
                         DISEÑALO A TU MEDIDA
                     </div>
                 </div>
@@ -116,7 +129,7 @@ Llegando a donde antes no podias
                             <div class="tipoComp">
                                 MOTOR
                             </div>
-                            <div class="imagenComp">
+                            <div id="divMotor" class="imagenComp">
                                 <img id="imgMotor" src="imagenes/motores/motor1.png" class="img-responsive center-block" alt="Responsive image">
                             </div>
                         </div>
@@ -125,7 +138,7 @@ Llegando a donde antes no podias
                             <div class="tipoComp">
                                 MARCO
                             </div>
-                            <div class="imagenComp">
+                            <div id="divMarco" class="imagenComp">
                                 <img id="imgMarco" src="imagenes/marcos/marco5.png" class="img-responsive center-block" alt="Responsive image">
                             </div>
                         </div>
@@ -135,8 +148,8 @@ Llegando a donde antes no podias
                             <div class="tipoComp">
                                 RADIORECEPTOR
                             </div>
-                            <div class="imagenComp">
-                                <img id="imgMando" src="imagenes/receptores/mando4.png" class="img-responsive center-block" alt="Responsive image">
+                            <div id="divMando" class="imagenComp">
+                                <img id="imgMando" src='imagenes/receptores/mando4.png' class="img-responsive center-block" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -150,7 +163,7 @@ Llegando a donde antes no podias
                         <div class="tipoComp">
                             BATERIA
                         </div>
-                        <div class="imagenComp">
+                        <div id="divBateria" class="imagenComp">
                             <img id="imgBateria" src="imagenes/baterias/bateria5.png" class="img-responsive center-block" alt="Responsive image">
                         </div>
                     </div>
@@ -159,7 +172,7 @@ Llegando a donde antes no podias
                         <div class="tipoComp">
                             CAMARA
                         </div>
-                        <div class="imagenComp">
+                        <div id="divCamara" class="imagenComp">
                             <img id="imgCamara" src="imagenes/camaras/gopro.png" class="img-responsive center-block" alt="Responsive image">
                         </div>
                     </div>
@@ -168,7 +181,7 @@ Llegando a donde antes no podias
                         <div class="tipoComp">
                             GPS
                         </div>
-                        <div class="imagenComp">
+                        <div id="divGps" class="imagenComp">
                             <img id="imgGps" src="imagenes/gps/gps3.png" class="img-responsive center-block" alt="Responsive image">
                         </div>
                     </div>
@@ -178,7 +191,7 @@ Llegando a donde antes no podias
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="textoComponentes">
+                        <div id="textoComponentes" class="textoComponentes">
                             COMPONENTES DISPONIBLES
                         </div>
                     </div>
@@ -188,46 +201,30 @@ Llegando a donde antes no podias
                     <div class="row">
                         <div class="col-lg-12">
                             <div id="claseDeComp" class="textoArmado2">
-                                Motor
                                 <hr>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <div class="parteDisp">
-                            Parte 1
-                        </div>
-                    </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <div class="parteDisp">
-                            Parte 1
-                        </div>
-                    </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <div class="parteDisp">
-                            Parte 1
-                        </div>
-                    </div>
+                <div id="tablaComp" class="row">
                 </div>
 
                 <div class="row">
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <div class="parteDisp">
+                        <div id="parteDeComp" class="parteDisp">
                             <hr>
                             Parte 1
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <div class="parteDisp">
+                        <div id="parteDeComp" class="parteDisp">
                             <hr>
                             Parte 1
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <div class="parteDisp">
+                        <div id="parteDeComp" class="parteDisp">
                             <hr>
                             Parte 1
                         </div>
@@ -282,7 +279,27 @@ Llegando a donde antes no podias
             <div class="container-fluid paddingFooter">
                 <div class="row paddingFooter">
                     <div class="col-lg-12 paddingFooter colorFooter">
-                        El footer del sherman y esteban
+                        <div class="partesWeb">
+                            <ul class="listSitio">
+                                <li>Inicio</li>
+                                <li>Quien Somos</li>
+                                <li>Estilos</li>
+                                <li>Precargados</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="socialMedia">
+                            <table>
+                                <tr>
+                                    <td><img src="imagenes/socialMedia/facebook.png" class="img-responsive center-block" alt="Responsive image"></td>
+                                    <td><img src="imagenes/socialMedia/youtube.png" class="img-responsive center-block" alt="Responsive image"></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="imagenes/socialMedia/twitter.png" class="img-responsive center-block" alt="Responsive image"></td>
+                                    <td><img src="imagenes/socialMedia/rss.png" class="img-responsive center-block" alt="Responsive image"></td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -291,13 +308,19 @@ Llegando a donde antes no podias
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="js/bootstrap.min.js"></script>
-            
+
             <!-- Include all files to jquery cookies-->
             <script src="jqueryCookie/jquery.cookie.js"></script>
-            
-            
+
+
             <script src="js/cookiesSave.js"></script>
-            
+
             <script src="js/changeStyle.js"></script>
+
+            <script src="js/seleccionarMotor.js"></script>
+
+            <script src="js/seleccionarMarco.js"></script>
+            
+            <script src="js/precargar1.js"></script>
             </body>
         </html> 

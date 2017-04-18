@@ -159,18 +159,30 @@ body{
     width: auto;
 }
 
+.socialMedia {
+    float: right;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
 
+.partesWeb {
+    float: left;
+    font-size: 15px;
+    clear: none;
+    line-height: 1.1;
+}
 
-
-
-
-
-
+.listSitio{
+    list-style: none;
+    text-decoration: none;
+}
 
 /*  BARRA DE NAVEGACION -> SE USO TWBSCOLOR   */
 .navbar-default {
     background-color: #262930;
     border-color: #a79faa;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 .navbar-default .navbar-brand {
     color: #ffffff;
