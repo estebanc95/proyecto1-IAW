@@ -50,7 +50,7 @@
             "nombre":"ASD25",
             "marca":"Nikon",
             "megapixeles":300,
-            "imagen":"imagenes/baterias/sony.png"
+            "imagen":"imagenes/camaras/sony.png"
         },
         {
             "nombre":"Hero 5",
@@ -59,25 +59,25 @@
             "imagen":"imagenes/camaras/gopro.png"
         }
     ],
-    "GPS":[
+    "gps":[
         {
             "nombre":"Garmin",
             "modelo":"Nuvi A12",
-            "imagen":"imagenes/camaras/gps1.png"
+            "imagen":"imagenes/gps/gps1.png"
         },
         {
             "nombre":"Buscador",
             "modelo":"Tomtan R12",
-            "imagen":"imagenes/camaras/gps2.png"
+            "imagen":"imagenes/gps/gps2.png"
         },
         {
             "nombre":"Navigator",
             "modelo":"Nuvi S10",
-            "imagen":"imagenes/camaras/gps3.png"
+            "imagen":"imagenes/gps/gps3.png"
         }
 
     ],
-    "radioreceptores":[
+    "controles":[
         {
             "plataforma":"Android",
             "frecuencia":144,
