@@ -255,25 +255,13 @@ body{
     color: #000000;
 }
 
-.video-container {
-    display: none;
-}
-
-#menuDeArmado{
-    display: none;
-}
-
-.textoIntro2{
-    display: none;
-}
-
 .agregado{
     float: right;
 }
 
-.fondoDrone{
-    background-image: url("imagenes/droneintro.png");
-    background-repeat: no-repeat;
+.imgDron{
+	content:url("/imagenes/droneintroWhite.png");
+
 }
 
 
