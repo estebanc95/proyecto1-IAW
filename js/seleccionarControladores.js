@@ -1,6 +1,6 @@
-$( "#imgMotor" ).click(function() {
+$( "#imgControl" ).click(function() {
     $("#claseDeComp,#tablaComp").empty();
-    $("#claseDeComp").prepend("Motores");
+    $("#claseDeComp").prepend("Baterías");
     $("#claseDeComp").append("<hr>");
 
     //Scrollea hasta el cuadro correspondiente
@@ -13,19 +13,9 @@ $( "#imgMotor" ).click(function() {
         //si logre entrar
         var i=0;
         var len=0;
-        var motores=json.motores;
-        for (i=0, len=motores.length; i<len ; i++){
-            cargarElementos(0,motores[i],i);
+        var controladores=json.controles;
+        for (i=0, len=controladores.length; i<len ; i++){
+            cargarElementos(2,controladores[i],i);
         }
     });
 });
-
-
-
-
-
-
-
-
-
-

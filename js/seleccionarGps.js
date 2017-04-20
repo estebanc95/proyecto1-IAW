@@ -16,19 +16,8 @@ $( "#imgGps" ).click(function() {
         var len=0;
         var gps=json.gps;
         for (i=0, len=gps.length; i<len ; i++){
-            cargarGps(gps[i],i);
+            cargarElementos(5,gps[i],i);
         }
     });
 });
 
-
-
-function cargarGps(modelo,i){
-    var htmlSave = "<div class='col-xs-4 col-sm-4 col-md-4 col-lg-4'>"+
-        "<div id='parteDeComp' class='parteDisp'>"+
-        modelo.nombre + "<br>" + modelo.modelo + "<img src='" + modelo.imagen + "' class='img-responsive center-block' alt='Responsive image'/>" + "</div></div>";
-
-    $("#tablaComp").append(htmlSave);
-
-
-}

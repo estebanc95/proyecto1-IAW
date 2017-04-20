@@ -15,19 +15,8 @@ $( "#imgBateria" ).click(function() {
         var len=0;
         var baterias=json.baterias;
         for (i=0, len=baterias.length; i<len ; i++){
-            cargarBaterias(baterias[i],i);
+            cargarElementos(3,baterias[i],i);
         }
     });
 });
 
-
-
-function cargarBaterias(modelo,i){
-    var htmlSave = "<div class='col-xs-4 col-sm-4 col-md-4 col-lg-4'>"+
-        "<div id='parteDeComp' class='parteDisp'>"+
-        modelo.voltaje+ "<img src='" + modelo.imagen + "' class='img-responsive center-block' alt='Responsive image'/>" + "</div></div>";
-
-    $("#tablaComp").append(htmlSave);
-
-
-}

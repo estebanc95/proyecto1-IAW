@@ -16,19 +16,8 @@ $( "#imgMarco" ).click(function() {
         var len=0;
         var marcos=json.marcos;
         for (i=0, len=marcos.length; i<len ; i++){
-            cargarMarcos(marcos[i],i);
+            cargarElementos(1,marcos[i],i);
         }
     });
 });
 
-
-
-function cargarMarcos(modelo,i){
-    var htmlSave = "<div class='col-xs-4 col-sm-4 col-md-4 col-lg-4'>"+
-        "<div id='parteDeComp' class='parteDisp'>"+
-        modelo.modelo + "<br>" + modelo.marca + "<img src='" + modelo.imagen + "' class='img-responsive center-block' alt='Responsive image'/>" + "</div></div>";
-
-    $("#tablaComp").append(htmlSave);
-
-
-}

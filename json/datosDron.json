@@ -1,6 +1,7 @@
 {
     "marcos":[
         {
+            "id":1,
             "modelo":"X1",
             "marca":"Serie X",
             "color":"rojo",
@@ -9,6 +10,7 @@
             "imagen":"imagenes/marcos/marco1.png"
         },
         {
+            "id":2,
             "modelo":"X2",
             "marca":"Serie X",
             "color":"rojo",
@@ -17,6 +19,7 @@
             "imagen":"imagenes/marcos/marco2.png"
         },
         {
+            "id":3,
             "modelo":"X3",
             "marca":"Serie X",
             "color":"rojo",
@@ -25,6 +28,7 @@
             "imagen":"imagenes/marcos/marco3.png"
         },
         {
+            "id":4,
             "modelo":"X4",
             "marca":"Serie X",
             "color":"rojo",
@@ -33,6 +37,7 @@
             "imagen":"imagenes/marcos/marco4.png"
         },
         {
+            "id":5,
             "modelo":"Y3",
             "marca":"Serie Y",
             "color":"azul",
@@ -43,13 +48,15 @@
     ],
     "motores":[
         {
-            "nombre":"XYZ12",
+            "id":1,
+            "modelo":"XYZ12",
             "revoluciones":1400,
             "voltaje":128,
             "imagen":"imagenes/motores/motor1.png"
         },
         {
-            "nombre":"RX7",
+            "id":2,
+            "modelo":"RX7",
             "revoluciones":1100,
             "voltaje":90,
             "imagen":"imagenes/motores/motor2.png"
@@ -57,12 +64,16 @@
     ],
     "baterias":[
         {
+            "id":1,
+            "modelo":"SuperBateri1",
             "voltaje":128,
             "duracion":2,
             "tipo":"litio",
             "imagen":"imagenes/baterias/bateria1.png"
         },
         {
+            "id":2,
+            "modelo":"SuperBateri2",
             "voltaje":1400,
             "duracion":4,
             "tipo":"lipo",
@@ -71,13 +82,15 @@
     ],
     "camaras":[
         {
-            "nombre":"ASD25",
+            "id":1,
+            "modelo":"ASD25",
             "marca":"Nikon",
             "megapixeles":300,
             "imagen":"imagenes/camaras/sony.png"
         },
         {
-            "nombre":"Hero 5",
+            "id":2,
+            "modelo":"Hero 5",
             "marca":"GoPro",
             "megapixeles":1080,
             "imagen":"imagenes/camaras/gopro.png"
@@ -85,16 +98,19 @@
     ],
     "gps":[
         {
+            "id":1,
             "nombre":"Garmin",
             "modelo":"Nuvi A12",
             "imagen":"imagenes/gps/gps1.png"
         },
         {
+            "id":2,
             "nombre":"Buscador",
             "modelo":"Tomtan R12",
             "imagen":"imagenes/gps/gps2.png"
         },
         {
+            "id":3,
             "nombre":"Navigator",
             "modelo":"Nuvi S10",
             "imagen":"imagenes/gps/gps3.png"
@@ -103,16 +119,22 @@
     ],
     "controles":[
         {
+            "id":1,
+            "modelo":"Movil1",
             "plataforma":"Android",
             "frecuencia":144,
             "imagen":"imagenes/receptores/mando1.png"
         },
         {
+            "id":2,
+            "modelo":"Sin Movil",
             "plataforma":"Tradicional",
             "frecuencia":24,
             "imagen":"imagenes/receptores/mando2.png"
         },
         {
+            "id":3,
+            "modelo":"Ipad3000",
             "plataforma":"Remoto con pantalla integrada",
             "frecuencia":24,
             "imagen":"imagenes/receptores/mando3.png"
