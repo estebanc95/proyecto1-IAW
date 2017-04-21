@@ -9,3 +9,11 @@ $('.video-container').on('click', function(){
         scrollTop: $(".textoArmado2").offset().top
     }, 500);
 });
+
+
+
+$('.textIntro2').on('click','.textoIntro2', function(){
+    $('html, body').animate({
+        scrollTop: $(".textoArmado2").offset().top
+    }, 500);
+});

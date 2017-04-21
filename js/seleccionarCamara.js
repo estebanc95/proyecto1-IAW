@@ -10,8 +10,7 @@ $( "#imgCamara" ).click(function() {
 
 
     var myjson =$.getJSON("json/datosDron.json", function(json) {
-        console.log(json);
-        //si logre entrar
+
         var i=0;
         var len=0;
         var camaras=json.camaras;
