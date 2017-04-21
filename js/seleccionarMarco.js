@@ -17,10 +17,10 @@ $( "#imgMarco" ).click(function() {
         var marcos=json.marcos;
         for (i=0, len=marcos.length; i<len ; i++){
             atributos="Modelo: "+marcos[i].modelo+
-                    " Marca: "+marcos[i].marca+
-                    " Color: "+marcos[i].color+
-                    " Material: "+marcos[i].material+
-                    " Número de helices: "+marcos[i].numeroHelices;
+                    " - Marca: "+marcos[i].marca+
+                    " - Color: "+marcos[i].color+
+                    " - Material: "+marcos[i].material+
+                    " - Número de helices: "+marcos[i].numeroHelices;
             cargarElementos(1,marcos[i],i,atributos);
         }
     });

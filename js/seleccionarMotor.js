@@ -16,8 +16,8 @@ $( "#imgMotor" ).click(function() {
         var motores=json.motores;
         for (i=0, len=motores.length; i<len ; i++){
             atributos="Modelo:"+motores[i].modelo+
-                    " Revoluciones: "+motores[i].revoluciones+
-                    "Voltaje "+motores[i].voltaje;
+                    " - Revoluciones: "+motores[i].revoluciones+
+                    " - Voltaje "+motores[i].voltaje;
             cargarElementos(0,motores[i],i,atributos);
         }
     });

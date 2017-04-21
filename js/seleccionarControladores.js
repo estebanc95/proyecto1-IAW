@@ -16,8 +16,8 @@ $( "#imgControl" ).click(function() {
         var controles=json.controles;
         for (i=0, len=controles.length; i<len ; i++){
             atributos="Modelo: "+controles[i].modelo+
-                    " Plataforma: "+controles[i].plataforma+
-                    " Frecuencia: "+controles[i].frecuencia;
+                    " - Plataforma: "+controles[i].plataforma+
+                    " - Frecuencia: "+controles[i].frecuencia;
             cargarElementos(2,controles[i],i,atributos);
         }
     });

@@ -17,7 +17,7 @@ $( "#imgGps" ).click(function() {
         var gps=json.gps;
         for (i=0, len=gps.length; i<len ; i++){
             atributos="Nombre: "+gps[i].nombre+
-                    " Modelo: "+gps[i].modelo;
+                    " - Modelo: "+gps[i].modelo;
             cargarElementos(5,gps[i],i,atributos);
         }
     });

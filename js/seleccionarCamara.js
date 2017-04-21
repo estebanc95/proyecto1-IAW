@@ -17,8 +17,8 @@ $( "#imgCamara" ).click(function() {
         var camaras=json.camaras;
         for (i=0, len=camaras.length; i<len ; i++){
             atributos="Modelo: "+camaras[i].modelo+
-                    " Marca: "+camaras[i].marca+
-                    " Megapixeles: "+camaras[i].megapixeles;
+                    " - Marca: "+camaras[i].marca+
+                    " - Megapixeles: "+camaras[i].megapixeles;
             cargarElementos(4,camaras[i],i,atributos);
         }
     });
