@@ -15,8 +15,11 @@ $( "#imgBateria" ).click(function() {
         var len=0;
         var baterias=json.baterias;
         for (i=0, len=baterias.length; i<len ; i++){
-            cargarElementos(3,baterias[i],i);
+            atributos="Modelo: "+baterias[i].modelo+
+                    " Voltaje: "+baterias[i].voltaje+
+                    " Duración: "+baterias[i].duracion+
+                    " Tipo: "+baterias[i].tipo;
+            cargarElementos(3,baterias[i],i,atributos);
         }
     });
 });
-

@@ -1,5 +1,4 @@
 function cambiarComponentes(idComponente,mod) {
-    alert(idComponente);
     var ubicacionDeImagen;
 
     var myjson =$.getJSON("json/datosDron.json", function(json) {
@@ -32,9 +31,9 @@ function cambiarComponentes(idComponente,mod) {
                 componente = json.gps;
                 break;
         }
-        
+
         var elementoComponenteID = componente[mod-1];
-        
+
         $(ubicacionDeImagen).attr('src',elementoComponenteID.imagen);
     });
 }

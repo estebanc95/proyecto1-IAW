@@ -1,6 +1,6 @@
 $( "#imgControl" ).click(function() {
     $("#claseDeComp,#tablaComp").empty();
-    $("#claseDeComp").prepend("Baterías");
+    $("#claseDeComp").prepend("Controles");
     $("#claseDeComp").append("<hr>");
 
     //Scrollea hasta el cuadro correspondiente
@@ -13,9 +13,12 @@ $( "#imgControl" ).click(function() {
         //si logre entrar
         var i=0;
         var len=0;
-        var controladores=json.controles;
-        for (i=0, len=controladores.length; i<len ; i++){
-            cargarElementos(2,controladores[i],i);
+        var controles=json.controles;
+        for (i=0, len=controles.length; i<len ; i++){
+            atributos="Modelo: "+controles[i].modelo+
+                    " Plataforma: "+controles[i].plataforma+
+                    " Frecuencia: "+controles[i].frecuencia;
+            cargarElementos(2,controles[i],i,atributos);
         }
     });
 });
