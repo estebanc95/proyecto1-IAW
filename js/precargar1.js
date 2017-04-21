@@ -11,6 +11,7 @@ $( "#precargado1" ).click(function() {
 
         var marco=json.marco;
         cargar(marco,"#imgMarco");
+        
         var motor= json.motor;
         cargar(motor,"#imgMotor");
         var bateria = json.bateria; cargar(bateria,"#imgBateria");
@@ -20,13 +21,17 @@ $( "#precargado1" ).click(function() {
         cargar(gps,"#imgGps");
         var mando = json.radioreceptor;
         cargar(mando,"#imgMando");
+        
+        
+        var idMarco = marco.id;
+        var idMotor = motor.id;
+        var idBateria = bateria.id;
+        var idCamara = camara.id;
+        var idGps = gps.id;
+        var idMando = mando.id;
+        
+        //cargarComponentes(idMotor,idMarco,idMando,idBateria,idCamara,idGps);
+        //BORRAR TODOS LOS CARGAR Y LLAMAR A CARGARCOMPONENTE CON CADA ID OBTENIDO
     });
 });
 
-
-
-function cargar(modelo,i,j){
-    $(i).attr('src',modelo.imagen);
-
-
-}
