@@ -50,6 +50,7 @@ function cargarComponentes(idMotor, idMarco, idControl, idBateria, idCamara, idG
 
 function cargar(modelo,i,atributos){
     $(i).attr('src',modelo.imagen);
-    $(i).attr('title',atributos);
+    $(i).tooltip('hide');
+    $(i).attr('data-original-title',atributos);
 
 }
