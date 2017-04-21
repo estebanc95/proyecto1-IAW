@@ -1,23 +1,19 @@
-var texto = $.cookie("cssCambio");
-if(texto == null) {
-    $.cookie('cssCambio','css/style.css');
+
+$( document ).ready(function() {
     var texto = $.cookie("cssCambio");
-    $('link[id="cascadaStyles"]').attr('href',texto);
-    $("#headerEstilo1").show();
-    $("#headerEstilo2").hide();
-}
-else {
-    var texto = $.cookie("cssCambio");
-    
-    if(texto=="css/estilo.css") {
-        $("#headerEstilo1").hide();
-        $("#headerEstilo2").show();
-        $("#infoTexto").hide();
+    if(texto == null) {
+        $.cookie('cssCambio','css/style.css');
+        var texto = $.cookie("cssCambio");
+        cambiarEstilo1a2();
     }
     else {
-        $("#headerEstilo1").show();
-        $("#headerEstilo2").hide();
-        $("#infoTexto").show();
+        var texto = $.cookie("cssCambio");
+
+        if(texto=="css/estilo.css") {
+            cambiarEstilo2a1();
+        }
+        else {
+            cambiarEstilo1a2();
+        }
     }
-    $('link[id="cascadaStyles"]').attr('href',texto);
-}
+});
