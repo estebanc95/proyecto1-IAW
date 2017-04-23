@@ -77,7 +77,31 @@
             "voltaje":1400,
             "duracion":4,
             "tipo":"lipo",
-            "imagen":"imagenes/baterias/bateria1.png"
+            "imagen":"imagenes/baterias/bateria2.png"
+        },
+        {
+            "id":3,
+            "modelo":"SuperBateri3",
+            "voltaje":110,
+            "duracion":3,
+            "tipo":"lipo",
+            "imagen":"imagenes/baterias/bateria3.png"
+        },
+        {
+            "id":4,
+            "modelo":"SuperBateri4",
+            "voltaje":220,
+            "duracion":8,
+            "tipo":"lipo",
+            "imagen":"imagenes/baterias/bateria4.png"
+        },
+        {
+            "id":5,
+            "modelo":"Superbateri5",
+            "voltaje":220,
+            "duracion":6,
+            "tipo":"litio",
+            "imagen":"imagenes/baterias/bateria5.png"
         }
     ],
     "camaras":[
