@@ -5,7 +5,7 @@ function cargarElementos(num,modelo,i,atributos){
     }
     var htmlSave = "<div class='col-xs-4 col-sm-4 col-md-4 col-lg-4'>"+
         "<div id='parteDeComp' class='parteDisp'>"+ "<br>" + "<img onClick='cambiarComponentes("+num+","+modelo.id+")'  src='" + modelo.imagen +
-        "' data-toggle='tooltip' title='"+atributos+ "' class='img-responsive center-block imgClick' alt='Responsive image'/>" + "</div></div>";
+        "' data-toggle='tooltip' title='"+atributos+ "' class='img-responsive center-block imgClick' alt='Imagen componentes'/>" + "</div></div>";
 
     $("#tablaComp").append(htmlSave);
     $('[data-toggle="tooltip"]').tooltip();
